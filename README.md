@@ -12,7 +12,11 @@ in ISO-8601 format. The start_time must be before end_time. The end
 point must respond with only a single integer value for successful 
 requests or a suitable error message string for failed requests.
 
-end point url: "/api/v1/bus_sec"
+ISO-8601 format: "YYYY-MM-DDTHH:mm:ss"  
+ISO-8601 format example: "2020-03-20T23:05:50-06:00"  
+
+end point url: "/api/v1/bus_sec"  
+end point example: "/api/v1/bus_sec?start_time=2020-03-16T06:04:45-06:00&end_time=2020-03-20T23:05:50-06:00"
 
 ## Installation
 ### Requirements
